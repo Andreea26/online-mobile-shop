@@ -1,6 +1,8 @@
 body {
-  background-color: #ADFF2F;
+  background-color: #7FFF7F;
   padding: 10px;
+  height: 100%;
+  background-repeat: no-repeat;
 }
 
 .main {
@@ -32,17 +34,18 @@ li span, .main p {
   margin-bottom: 2px;
   border: solid;
   border-color: #008000;
-  background-color: #ADFF2F;
+  background-color: #7FFF7F;
 }
 
 #submit {
-  background-color: #ADFF2F;
+  background-color: #7FFF7F;
   border-color: #008000;
   border-radius: 50%;
   padding: 10px;
-  margin-left: 100px;
+  margin-left: 125px;
   font-weight: bold;
   cursor: pointer;
+  width: 60px;
 }
 
 #submit:focus {
@@ -57,7 +60,7 @@ li span, .main p {
 }
 
 #sortByPrice, #sortByYear, #sortByDate {
-  background-color: #ADFF2F;
+  background-color: #7FFF7F;
   border-color: #008000;
   padding: 5px;
   margin: 5px;
@@ -67,7 +70,7 @@ li span, .main p {
 
 
  #filter, #all {
-   background-color: #ADFF2F;
+   background-color: #7FFF7F;
    border-color: #008000;
    padding: 5px;
    margin: 5px;
@@ -82,7 +85,7 @@ li span, .main p {
 }
 
 .product {
-  background-color:#ADFF2F;
+  background-color:#7FFF7F;
   padding: 5px;
   margin: 10px;
   border: 1px solid;
@@ -96,24 +99,21 @@ li span, .main p {
 
 .inputs input {
   margin: 5px;
-  width: 200px;
+  width: 100px;
   border: solid;
   border-color: #008000;
   text-align: center;
-  background-color: #ADFF2F;
+  background-color: #7FFF7F;
 }
 
 h1 {
   font-size: 45px;
 }
 
-h2 {
-  font-size: px;
-}
 
 .delete {
   border-radius: 50%;
-  background-color: #ADFF2F;
+  background-color: #7FFF7F;
   color: red;
   float: right;
   cursor: pointer;

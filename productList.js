@@ -2,14 +2,14 @@
 mainPage.innerHTML += `
 <div class="buttons">
 	<div class="buttonsSort">
-		<button id="sortByPrice">Sorteaza dupa pret</button>
-		<button id="sortByYear">Sorteaza dupa anul aparitiei</button>
-		<button id="sortByDate">Sorteaza dupa data adaugarii</button>
+		<button id="sortByPrice">Sort by price</button>
+		<button id="sortByYear">Sort by year</button>
+		<button id="sortByDate">Sort by date</button>
 	</div>
 	<div class="inputs">
-		<input id="limitInf" placeholder="Pret mai mare decat..."/>
-		<button id="filter">Filtreaza dupa pret</button>
-		<input id="limitSup" placeholder="Pret mai mic decat..."/>
+		<input id="limitInf" placeholder="Higher price"/>
+		<button id="filter">Filter by price</button>
+		<input id="limitSup" placeholder="Lower price"/>
 	</div>
 </div>
 `;

@@ -1,15 +1,15 @@
 // aduagam in HTML formularul de adaugare produs
 mainPage.innerHTML += `
 <div class="main">
-    <p>A aparut un telefon nou?</p>
+    <p>ADD A NEW PHONE</p>
     <form name="formPhone" id="addPhone">
       <div class="info">
-        <input type="text" id="phoneName" name="phoneName" placeholder="Nume" required>
-        <input type="number" id="phonePrice" name="phonePrice" placeholder="Pret" required>
-        <input type="number" id="phoneYear" name="phoneYear" placeholder="An aparitie" required max=${Number(getCurrentDate().substring(6,10))}>
-        <input type="text" id="phoneImage" name="phoneImage" placeholder="Imagine" required>
+        <input type="text" id="phoneName" name="phoneName" placeholder="Name" required>
+        <input type="number" id="phonePrice" name="phonePrice" placeholder="Price" required>
+        <input type="number" id="phoneYear" name="phoneYear" placeholder="Year" required max=${Number(getCurrentDate().substring(6,10))}>
+        <input type="text" id="phoneImage" name="phoneImage" placeholder="Image link" required>
       </div>
-      <input type="submit" id="submit" value="Adauga telefon">
+      <input type="submit" id="submit" value="ADD">
     </form>
   </div>
 `;
