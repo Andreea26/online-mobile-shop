@@ -1,0 +1,124 @@
+body {
+  background-color: #ADFF2F;
+  padding: 10px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+li p {
+  padding-left: 23px;
+}
+
+li img {
+  padding-left: 50px;
+}
+
+li span, .main p {
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info input {
+  width: 300px;
+  padding: 4px;
+  margin-bottom: 2px;
+  border: solid;
+  border-color: #008000;
+  background-color: #ADFF2F;
+}
+
+#submit {
+  background-color: #ADFF2F;
+  border-color: #008000;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit:focus {
+  outline: none;
+}
+
+.buttonsSort {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#sortByPrice, #sortByYear, #sortByDate {
+  background-color: #ADFF2F;
+  border-color: #008000;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  font-weight: bold
+}
+
+
+ #filter, #all {
+   background-color: #ADFF2F;
+   border-color: #008000;
+   padding: 5px;
+   margin: 5px;
+   font-weight: bold
+ }
+
+#product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.product {
+  background-color:#ADFF2F;
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid;
+  border-color: #008000;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs input {
+  margin: 5px;
+  width: 200px;
+  border: solid;
+  border-color: #008000;
+  text-align: center;
+  background-color: #ADFF2F;
+}
+
+h1 {
+  font-size: 45px;
+}
+
+h2 {
+  font-size: px;
+}
+
+.delete {
+  border-radius: 50%;
+  background-color: #ADFF2F;
+  color: red;
+  float: right;
+  cursor: pointer;
+}
+
+.main p {
+  font-size: 18px;
+}
