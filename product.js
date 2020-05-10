@@ -15,9 +15,9 @@ class Product {
 			<li class="product">
 				<button class="delete" id=${this.id}>x</button>
 				<span>${this.name}</span>
-				<p>Pret: ${this.price} RON</p>
-				<p>An aparitie: ${this.year}</p>
-				<p>Data adaugare: ${this.date}</p>
+				<p>Price: ${this.price} RON</p>
+				<p>Year: ${this.year}</p>
+				<p>Date: ${this.date}</p>
 				<image src=${this.image} alt="Not found" width=100 height=100/>
 			</li>
 		`;
